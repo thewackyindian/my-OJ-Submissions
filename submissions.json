@@ -1,4 +1,21 @@
 {
+  "CF184983554": {
+    "contest_id": 1766,
+    "language": "GNU C++17",
+    "path": "codeforces\\1766\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Extremely Round",
+    "problem_url": "https://codeforces.com/contest/1766/problem/A",
+    "submission_id": "CF184983554",
+    "submission_url": "https://codeforces.com/contest/1766/submission/184983554",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/12/2022 22:27"
+  },
   "CF184983632": {
     "contest_id": 1766,
     "language": "GNU C++17",
