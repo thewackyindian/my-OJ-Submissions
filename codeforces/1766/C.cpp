@@ -29,7 +29,7 @@ public:
         void solveOne(std::istream& in, std::ostream& out) {
             int m;
             in >> m;
-            vector<vector<char>>g(2, vector<char>(m));
+            char g[2][m];
             int b = 0;
             for(int i = 0; i < 2; i++)
                 for(int j  = 0; j < m; j++) {
@@ -37,33 +37,63 @@ public:
                     if (g[i][j] == 'B')
                         b++;
                 }
-            auto check = [&](int x, int y)->bool{
-                vector<vector<int>>vis(2, vector<int>(m, 0));
-                vis[x][y] = 1;
-                int cnt = 0;
-                while(true) {
-                    if(g[x][y] == 'B') {
-                        cnt++;
-                        if (g[x ^ 1][y] == 'B' && vis[x ^ 1][y] == 0) {
-                            vis[x ^ 1][y] = 1;
-                            x ^= 1;
+            int x = 0, y = 0;
+            int vis[2][m];
+            memset(vis, 0, sizeof(vis));
+            vis[x][y] = 1;
+            int cnt = 0;
+            while(true) {
+                if(g[x][y] == 'B') {
+                    cnt++;
+                    if (g[x ^ 1][y] == 'B' && vis[x ^ 1][y] == 0) {
+                        vis[x ^ 1][y] = 1;
+                        x ^= 1;
+                    } else {
+                        if (y + 1 < m && g[x][y + 1] == 'B' && vis[x][y + 1] == 0) {
+                            vis[x][y + 1] = 1;
+                            y = y + 1;
                         } else {
-                            if (y + 1 < m && g[x][y + 1] == 'B' && vis[x][y + 1] == 0) {
-                                vis[x][y + 1] = 1;
-                                y = y + 1;
-                            } else {
-                                break;
-                            }
+                            break;
                         }
                     }
-                    else {
-                        break;
+                }
+                else{
+                    break;
+                }
+            }
+            if(cnt == b){
+                out << yes << endl;
+                return;
+            }
+            x = 1, y = 0;
+            memset(vis, 0, sizeof(vis));
+            vis[x][y] = 1;
+            cnt = 0;
+            while(true) {
+                if(g[x][y] == 'B') {
+                    cnt++;
+                    if (g[x ^ 1][y] == 'B' && vis[x ^ 1][y] == 0) {
+                        vis[x ^ 1][y] = 1;
+                        x ^= 1;
+                    } else {
+                        if (y + 1 < m && g[x][y + 1] == 'B' && vis[x][y + 1] == 0) {
+                            vis[x][y + 1] = 1;
+                            y = y + 1;
+                        } else {
+                            break;
+                        }
                     }
                 }
-                return cnt == b;
+                else{
+                    break;
+                }
+            }
+            if(cnt == b){
+                out << yes << endl;
+                return;
+            }
 
-            };
-            out << (check(0, 0) || check(1, 0) ? yes : no) << endl;
+            out << no << endl;
 
         }
         void solve(std::istream& in, std::ostream& out) {
