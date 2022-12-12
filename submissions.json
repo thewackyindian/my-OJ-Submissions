@@ -1,4 +1,22 @@
 {
+  "CF184856098": {
+    "contest_id": 1771,
+    "language": "GNU C++17",
+    "path": "codeforces\\1771\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hossam and Trainees",
+    "problem_url": "https://codeforces.com/contest/1771/problem/C",
+    "submission_id": "CF184856098",
+    "submission_url": "https://codeforces.com/contest/1771/submission/184856098",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Dec/12/2022 12:30"
+  },
   "CF184983016": {
     "contest_id": 1766,
     "language": "GNU C++17",
