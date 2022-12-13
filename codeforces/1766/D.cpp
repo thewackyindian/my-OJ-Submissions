@@ -21,7 +21,7 @@ template <typename T_container, typename T = typename enable_if<!is_same<T_conta
 
 template<class T>
 using min_heap = priority_queue<T,vector<T>,greater<T> >;
-const int mod = 1e9 + 7, inf = 1e18L + 5, N = 32000 + 5;
+const int mod = 1e9 + 7, inf = 1e18L + 5, N = 40000 + 5;
 const string yes = "YES", no = "NO";
 
 
