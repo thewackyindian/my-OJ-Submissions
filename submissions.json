@@ -1,4 +1,21 @@
 {
+  "CF185040921": {
+    "contest_id": 1766,
+    "language": "GNU C++17",
+    "path": "codeforces\\1766\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hamiltonian Wall",
+    "problem_url": "https://codeforces.com/contest/1766/problem/C",
+    "submission_id": "CF185040921",
+    "submission_url": "https://codeforces.com/contest/1766/submission/185040921",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Dec/13/2022 12:41"
+  },
   "CF185053155": {
     "contest_id": 1766,
     "language": "GNU C++17",
