@@ -1,4 +1,24 @@
 {
+  "CF185582538": {
+    "contest_id": 1767,
+    "language": "GNU C++17",
+    "path": "codeforces\\1767\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Playoff",
+    "problem_url": "https://codeforces.com/contest/1767/problem/D",
+    "submission_id": "CF185582538",
+    "submission_url": "https://codeforces.com/contest/1767/submission/185582538",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/17/2022 10:56"
+  },
   "CF185798583": {
     "contest_id": 1772,
     "language": "GNU C++17",
