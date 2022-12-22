@@ -1,4 +1,21 @@
 {
+  "CF186361352": {
+    "contest_id": 1358,
+    "language": "GNU C++17",
+    "path": "codeforces\\1358\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Park Lighting",
+    "problem_url": "https://codeforces.com/contest/1358/problem/A",
+    "submission_id": "CF186361352",
+    "submission_url": "https://codeforces.com/contest/1358/submission/186361352",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/22/2022 19:40"
+  },
   "CF186363985": {
     "contest_id": 1041,
     "language": "GNU C++17",
