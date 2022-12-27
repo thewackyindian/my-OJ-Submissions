@@ -1,4 +1,24 @@
 {
+  "CF186956772": {
+    "contest_id": 1731,
+    "language": "GNU C++17",
+    "path": "codeforces\\1731\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Even Subarrays",
+    "problem_url": "https://codeforces.com/contest/1731/problem/C",
+    "submission_id": "CF186956772",
+    "submission_url": "https://codeforces.com/contest/1731/submission/186956772",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "hashing",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Dec/27/2022 23:09"
+  },
   "CF187257243": {
     "contest_id": 1770,
     "language": "GNU C++17",
