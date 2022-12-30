@@ -1,4 +1,21 @@
 {
+  "CF187381636": {
+    "contest_id": 1770,
+    "language": "GNU C++17",
+    "path": "codeforces\\1770\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Koxia and Whiteboards",
+    "problem_url": "https://codeforces.com/contest/1770/problem/A",
+    "submission_id": "CF187381636",
+    "submission_url": "https://codeforces.com/contest/1770/submission/187381636",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Dec/31/2022 00:32"
+  },
   "CF187710001": {
     "contest_id": 1512,
     "language": "GNU C++17",
