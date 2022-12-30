@@ -1,4 +1,20 @@
 {
+  "CF187265612": {
+    "contest_id": 1770,
+    "language": "GNU C++17",
+    "path": "codeforces\\1770\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Koxia and Permutation",
+    "problem_url": "https://codeforces.com/contest/1770/problem/B",
+    "submission_id": "CF187265612",
+    "submission_url": "https://codeforces.com/contest/1770/submission/187265612",
+    "tags": [
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "Dec/30/2022 20:16"
+  },
   "CF187373559": {
     "contest_id": 1770,
     "language": "GNU C++17",
