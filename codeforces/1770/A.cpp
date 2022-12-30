@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <numeric>
 using namespace std;
 
 #define int        int64_t
@@ -30,12 +31,18 @@ const string yes = "YES", no = "NO";
 void solve() {
         int n, m;
         cin >> n >> m;
-        vector<int> a(n + m);
-        for(int i = 0; i < n + m; i++)
-                cin >> a[i];
-        //Um_nik Orz
-        sort(a.begin(), a.end() - 1);
-        cout << accumulate(a.begin() + m, a.end(), 0ll) << endl;
+        vector<int> a(n), b(m);
+
+
+        cin >> a ;
+        cin >> b;
+        sort(all(a));
+        for(int i = 0; i < m; i++) {
+                a[0] = b[i];
+                sort(all(a));
+                // dbg(a)
+        }
+        cout << accumulate(all(a), 0ll) << endl;
 }
 
 signed main() {
