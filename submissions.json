@@ -1,4 +1,21 @@
 {
+  "CF190420425": {
+    "contest_id": 1792,
+    "language": "GNU C11",
+    "path": "codeforces\\1792\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "GamingForces",
+    "problem_url": "https://codeforces.com/contest/1792/problem/A",
+    "submission_id": "CF190420425",
+    "submission_url": "https://codeforces.com/contest/1792/submission/190420425",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jan/25/2023 00:30"
+  },
   "CF190428285": {
     "contest_id": 1792,
     "language": "GNU C11",
