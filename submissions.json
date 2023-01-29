@@ -1,4 +1,22 @@
 {
+  "CF191143744": {
+    "contest_id": 1787,
+    "language": "GNU C++17",
+    "path": "codeforces\\1787\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Remove the Bracket",
+    "problem_url": "https://codeforces.com/contest/1787/problem/C",
+    "submission_id": "CF191143744",
+    "submission_url": "https://codeforces.com/contest/1787/submission/191143744",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jan/29/2023 21:35"
+  },
   "CF191611308": {
     "contest_id": 1778,
     "language": "GNU C++17",
