@@ -1,4 +1,21 @@
 {
+  "CF192203091": {
+    "contest_id": 1791,
+    "language": "GNU C11",
+    "path": "codeforces\\1791\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Prepend and Append",
+    "problem_url": "https://codeforces.com/contest/1791/problem/C",
+    "submission_id": "CF192203091",
+    "submission_url": "https://codeforces.com/contest/1791/submission/192203091",
+    "tags": [
+      "implementation",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Feb/05/2023 01:38"
+  },
   "CF192204948": {
     "contest_id": 1791,
     "language": "GNU C11",
