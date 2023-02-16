@@ -1,4 +1,22 @@
 {
+  "CF193906956": {
+    "contest_id": 1795,
+    "language": "GNU C11",
+    "path": "codeforces\\1795\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Two Towers",
+    "problem_url": "https://codeforces.com/contest/1795/problem/A",
+    "submission_id": "CF193906956",
+    "submission_url": "https://codeforces.com/contest/1795/submission/193906956",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/16/2023 22:10"
+  },
   "CF195916994": {
     "contest_id": 1800,
     "language": "GNU C++17",
