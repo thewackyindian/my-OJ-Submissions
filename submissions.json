@@ -1,4 +1,22 @@
 {
+  "CF196668485": {
+    "contest_id": 1802,
+    "language": "GNU C++17",
+    "path": "codeforces\\1802\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Buying gifts",
+    "problem_url": "https://codeforces.com/contest/1802/problem/D",
+    "submission_id": "CF196668485",
+    "submission_url": "https://codeforces.com/contest/1802/submission/196668485",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Mar/09/2023 19:35"
+  },
   "CF196900854": {
     "contest_id": 1214,
     "language": "GNU C++17",
