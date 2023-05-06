@@ -1,4 +1,22 @@
 {
+  "CF204880875": {
+    "contest_id": 1829,
+    "language": "GNU C++17",
+    "path": "codeforces\\1829\\F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Forever Winter",
+    "problem_url": "https://codeforces.com/contest/1829/problem/F",
+    "submission_id": "CF204880875",
+    "submission_url": "https://codeforces.com/contest/1829/submission/204880875",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/06/2023 22:45"
+  },
   "CF208351889": {
     "contest_id": 1839,
     "language": "GNU C++17",
